@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --black: #20252a;
+    --grey: #2b2e36;
+    --light-grey: #363941;
+    --white: #abb2bf;
+  
+    --dull-black: #20252a93;
+    --dull-grey: #282c346c;
+    --dull-white: #abb2bfb0;
+  
+    --primary: #61afef;
+  }
+  html {
+    font-size:70.5%;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "source sans pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .time {
+    font-size: 9rem;
+    background: var(--grey);
+    padding: 0.4rem 2rem;
+  }
+
